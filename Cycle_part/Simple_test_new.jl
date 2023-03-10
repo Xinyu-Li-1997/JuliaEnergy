@@ -1,5 +1,6 @@
 ## Working Directory ##
-cd("G:\\JuMPEnergy\\Cycle_part") # 跳转目录
+#cd("G:\\JuMPEnergy\\Cycle_part") # 跳转目录
+cd("C:\\WorkingD\\JuliaEnergy\\Cycle_part") # 跳转目录
 ## Include Basic functions ##
 include("Salts.jl")
 include("Props.jl")
@@ -108,6 +109,7 @@ end
 
 function HeatTransfer()
     a = 1
+    nothing
 end
 
 # 压力点约束
