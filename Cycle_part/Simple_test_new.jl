@@ -1,6 +1,6 @@
 ## Working Directory ##
 #cd("G:\\JuMPEnergy\\Cycle_part") # 跳转目录
-cd("C:\\WorkingD\\JuliaEnergy\\Cycle_part") # 跳转目录
+cd(pwd()*"\\Cycle_part") # 跳转到当前目录
 ## Include Basic functions ##
 include("Salts.jl")
 include("Props.jl")
