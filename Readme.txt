@@ -5,3 +5,6 @@
 Simple_test.jl 是简单回热循环
 Recompress_test.jl 是再压缩循环
 Recompress_test OPTIM.jl 是再压缩循环的优化
+
+pTh版本：计算难收敛
+phT版本：开发中
