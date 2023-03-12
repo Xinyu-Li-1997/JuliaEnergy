@@ -5,7 +5,7 @@ include("Turbomachine.jl")
 include("APoint.jl")
 include("Input.jl")
 ## Loading JuMP and NLopt ##
-using JuMP,Ipopt,MadNLP
+using JuMP,Ipopt
 # NLP solver
 model = Model(Ipopt.Optimizer)
 #model = Model(()->MadNLP.Optimizer(print_level=MadNLP.INFO, max_iter=100))
