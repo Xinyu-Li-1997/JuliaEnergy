@@ -36,6 +36,6 @@ Heater(1)
 set_start_value(Yita, 1.0)
 #set_attributes(model, "tol" => 1e-4, "max_iter" => 1000)
 Yitacal()
-# 执行优化
+# 执行优化1
 JuMP.optimize!(model)
 print("热效率：",value.(Yita))
